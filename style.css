@@ -1,5 +1,5 @@
 :root{
---branco-principal: #ff29a6;
+--branco-principal: #ffffff;
 --cinza-secundario: #C0C0C0;
 --botao-azul: #7cade7;
 --cor-de-fundo: #00001f;
@@ -20,6 +20,7 @@ body{
 .container{
     height: 100vh;
     display: grid;
+    grid-template-columns: 15%;
 }
 .container-botao{
     background-color: var(--botao-azul);

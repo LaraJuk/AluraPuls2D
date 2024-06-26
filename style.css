@@ -2,7 +2,7 @@
 --branco-principal: #ffffff;
 --cinza-secundario: #C0C0C0;
 --botao-azul: #7cade7;
---cor-de-fundo: #00001f;
+--cor-de-fundo: #0102;
 --fonte-principal: 'Montserrat';
 }
 *{
@@ -20,6 +20,8 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size:contain ;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
@@ -48,8 +50,27 @@ body{
     font-weight: 700;
 }
 .container-titulo{
-  margin: 1em 0 2em 0;  
+    margin: 1em 0 2em 0;  
 }
 .container-caixa{
     margin: 0 6em;
+}
+.imagem-secundaria{
+    width: 80% ;
+}
+.secundario{
+align-items: center;
+margin: 0 10em;
+}
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom:0.1em;
+}
+.descricao-texto{
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+
 }

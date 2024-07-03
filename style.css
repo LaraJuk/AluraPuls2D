@@ -2,7 +2,7 @@
 --branco-principal: #ffffff;
 --cinza-secundario: #C0C0C0;
 --botao-azul: #7cade7;
---cor-de-fundo: #0102;
+--cor-de-fundo: #00030c;
 --fonte-principal: 'Montserrat';
 }
 *{
@@ -73,4 +73,11 @@ margin: 0 10em;
     font-weight: 400;
     color: var(--cinza-secundario);
 
+}
+.secundario-botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container-sescricao{
+    padding: 2em;
 }
